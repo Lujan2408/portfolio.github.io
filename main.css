@@ -210,6 +210,8 @@
     text-align: center;
 }
 
+/* Icons section */
+
 .contact-icons {
     display: flex;
     justify-content: center;
@@ -224,6 +226,10 @@
 
 .contact-icons a {
     color: black;
+}
+
+.contact-icons a:hover {
+    color: rgb(135, 135, 135)
 }
 
 /* footer section */
