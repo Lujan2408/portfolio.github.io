@@ -121,8 +121,8 @@
 }
 
 .information-section img{
-    border-radius: 7px;
-    width: 285px;
+    border-radius: 8px;
+    width: 300px;
     margin: 80px;
     margin-right: 0px;
 }
@@ -252,4 +252,29 @@
 
 .footer-section a:hover{
     color: rgb(116, 116, 116);
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        margin: 20px 48px
+    }
+    
+    .welcome-title {
+        font-size: 34px;
+    }
+    
+    .jose-david {
+        font-size: 25px;
+    }
+
+    .information-section {
+        padding: 30px;
+    }
+    
+    .information-section p {
+        font-size: 14px;
+    }
+    
+    
+    
 }
