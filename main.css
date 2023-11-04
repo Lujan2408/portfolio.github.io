@@ -64,21 +64,21 @@
     font-family: 'Poppins', sans-serif;
     padding: 90px;
     padding-bottom: 5px;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 9px 5px 3.5px rgb(227, 227, 227);
 }
 
 .jose-david{
     font-family: 'Poppins', sans-serif;
     padding-bottom: 90px;
-    font-size: 35px;
+    font-size: 30px;
     text-shadow: 9px 5px 3.5px rgb(227, 227, 227);
 }
 
 /* information section */
 
 .information-section{
-    padding: 50px 180px;
+    padding: 35px 180px;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(245, 245, 245);
     display: flex;
@@ -110,10 +110,7 @@
 
 .information-section ul{
     display: flex;
-    /* -webkit-box-pack: justify; */
     justify-content: space-between;
-    /* -webkit-box-align: center; */
-    /* align-items: center; */
     list-style: none;
     width: 250px;
     padding-top: 22px;
@@ -268,13 +265,52 @@
     }
 
     .information-section {
-        padding: 30px;
+        padding: 40px;
     }
     
     .information-section p {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .information-section img {
+        width: 285px;
     }
     
+    .projects-section {
+        padding: 90px 50px;
+
+    }
     
+    .projects-section h2 {
+        font-size: 27px;
+    }
+    
+    .projects-section ul {
+        font-size: 17px;
+    }
+/*  */
+    .contact-section {
+        padding: 0px 50px 0px 50px;
+    }
+    
+    .contact-section a {
+        font-size: 27px;
+    }
+    
+    .contact-section p {
+        margin: 0;
+    }
+    
+    .contact-icons {
+        gap: 30px;
+    }
+    
+    .contact-icons i {
+        font-size: 26px;
+    }
+
+    .footer-section {
+        padding: 8px;
+    }
     
 }
