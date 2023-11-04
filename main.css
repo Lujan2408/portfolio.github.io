@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -59,19 +62,17 @@
     flex-direction: column;
     align-items: center;
     margin: 293px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 6px 6px 2.5px rgb(239, 239, 239);
 }
 
 .welcome-title{
-    font-family: 'Poppins', sans-serif;
     padding-bottom: 5px;
     font-size: 45px;
-    text-shadow: 9px 5px 3.5px rgb(227, 227, 227);
 }
 
 .jose-david{
-    font-family: 'Poppins', sans-serif;
     font-size: 35px;
-    text-shadow: 9px 5px 3.5px rgb(227, 227, 227);
 }
 
 /* information section */
@@ -89,9 +90,9 @@
 }
 
 .information-section h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 27px;
-    text-shadow: 9px 5px 3.5px rgb(220, 220, 227);
+    text-shadow: 6px 4px 2.5px rgb(220, 217, 217);
 }
 
 .information-section h2::after{
@@ -127,7 +128,6 @@
 
 .projects-section{
     font-family: 'Poppins', sans-serif;
-    /* background-color: palegreen; */
     padding: 90px 180px;
     display: flex;
     flex-direction: row-reverse;
@@ -136,9 +136,9 @@
 }
 
 .projects-section h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 27px;
-    text-shadow: 9px 5px 3.5px rgb(220, 220, 227);
+    text-shadow: 6px 4px 2.5px rgb(239, 239, 239);
 }
 
 .projects-section h2::after{
@@ -180,13 +180,14 @@
 .contact-section h2{
     padding-bottom: 40px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-section a{
     font-size: 27px;
     text-decoration: none;
     color: black;
-    text-shadow: 9px 5px 3.5px rgb(220, 220, 227);
+    text-shadow: 6px 4px 2.5px rgb(239, 239, 239);
 }
 
 .contact-section a:hover{
@@ -267,7 +268,6 @@
     
     .welcome-title {
         font-size: 30px;
-        padding: 0px 40px 0px 40px;
     }
     
     .jose-david {
@@ -354,12 +354,12 @@
     }
     
     .welcome-title {
-        font-size: 26px;
-        padding: 0px 40px 0px 40px;
+        font-size: 22px;
+        display: flex;
     }
 
     .jose-david {
-        font-size: 22px;
+        font-size: 20px;
         padding: 0px;
     }
 
