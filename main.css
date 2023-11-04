@@ -58,20 +58,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 293px;
 }
 
 .welcome-title{
     font-family: 'Poppins', sans-serif;
-    padding: 90px;
     padding-bottom: 5px;
-    font-size: 40px;
+    font-size: 45px;
     text-shadow: 9px 5px 3.5px rgb(227, 227, 227);
 }
 
 .jose-david{
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 90px;
-    font-size: 30px;
+    font-size: 35px;
     text-shadow: 9px 5px 3.5px rgb(227, 227, 227);
 }
 
