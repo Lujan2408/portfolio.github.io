@@ -251,25 +251,46 @@
     color: rgb(116, 116, 116);
 }
 
-@media screen and (max-width: 768px) {
+/* responsive */
+
+@media (max-width: 768px) {
     #header {
         margin: 20px 48px
     }
+
+    .main-nav-item a {
+        font-size: 14px;
+    }
+
+    .welcome-section {
+        margin: 272px 0px;
+    }
     
     .welcome-title {
-        font-size: 34px;
+        font-size: 30px;
+        padding: 0px 40px 0px 40px;
     }
     
     .jose-david {
-        font-size: 25px;
+        font-size: 24px;
+        padding: 0px;
     }
 
     .information-section {
         padding: 40px;
     }
     
+    .information-section h2{
+        font-size: 27px;
+    }
+    
     .information-section p {
-        font-size: 16px;
+        padding-top: 30px;
+        font-size: 17px;
+    }
+    
+    .information-section ul {
+        font-size: 15px;
     }
 
     .information-section img {
@@ -295,10 +316,12 @@
     
     .contact-section a {
         font-size: 27px;
+        pointer-events: none;
     }
     
     .contact-section p {
         margin: 0;
+        font-size: 16px;
     }
     
     .contact-icons {
@@ -306,11 +329,102 @@
     }
     
     .contact-icons i {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .footer-section {
         padding: 8px;
+        font-size: 16px;
     }
     
+}
+
+@media (max-width: 576px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 24px;
+    }
+
+    .main-nav-item a {
+        font-size: 14px;
+    }
+
+    .welcome-section {
+        margin: 264px 0px;
+    }
+    
+    .welcome-title {
+        font-size: 26px;
+        padding: 0px 40px 0px 40px;
+    }
+
+    .jose-david {
+        font-size: 22px;
+        padding: 0px;
+    }
+
+    .information-section {
+        padding: 35px 25px;
+        flex-direction: column;
+    }
+
+    .information-section h2 {
+        font-size: 27px;
+    }
+
+    .information-section p {
+        padding-top: 30px;
+        font-size: 17px;
+    }
+
+    .information-section ul {
+        flex-direction: column;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+
+    .information-section img {
+        width: 240px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .projects-section {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 50px 25px;
+    }
+
+    .projects-section h2 {
+        font-size: 27px;
+    }
+
+    .projects-section ul {
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .contact-section {
+        padding: 50px 25px;
+    }
+
+    .contact-section a {
+        font-size: 27px;
+        pointer-events: none;
+    }
+
+    .contact-icons {
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+
+    .contact-icons i {
+        font-size: 22px;
+    }
+
+    .footer-section {
+        padding: 8px;
+        font-size: 16px;
+    }
 }
