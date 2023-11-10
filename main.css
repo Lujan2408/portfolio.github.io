@@ -37,13 +37,21 @@
     display: inline-block;
 }
 
+.main-nav-item li a {
+    transition: all 0.5s ease;
+}
+
+.main-nav-item li a:hover {
+    padding: 4px 10px; 
+    background: black;
+    color: #fff;
+    border-radius: 15px;
+    content: none;
+}
+
 .main-nav-item a{
     color: black;
     text-decoration: none;
-}
-
-.main-nav-item a:hover {
-    color: rgb(180, 180, 180);
 }
 
 .main-nav-item a:active  {
@@ -112,9 +120,10 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 250px;
+    width: 300px;
     padding-top: 22px;
     font-size: 17px;
+    font-weight: bold;
 }
 
 .information-section img{
@@ -203,8 +212,9 @@
 }
 
 .contact-section p{
-    margin: 0px 130px;
+    margin: 0px 200px;
     text-align: center;
+    font-size: 17px;
 }
 
 /* Icons section */
