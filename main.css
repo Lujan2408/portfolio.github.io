@@ -120,9 +120,10 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 250px;
+    width: 300px;
     padding-top: 22px;
     font-size: 17px;
+    font-weight: bold;
 }
 
 .information-section img{
