@@ -212,8 +212,9 @@
 }
 
 .contact-section p{
-    margin: 0px 130px;
+    margin: 0px 200px;
     text-align: center;
+    font-size: 17px;
 }
 
 /* Icons section */
