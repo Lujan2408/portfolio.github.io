@@ -414,7 +414,22 @@ label {
         padding: 8px;
         font-size: 16px;
     }
-    
+
+    #formulario {
+        margin-top: 10px;
+    }
+
+    .input {
+        padding: 15px;
+    }
+
+    #formulario h2 {
+        padding-bottom: 20px; 
+    }
+
+    .button {
+        padding: 15px 20px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -506,5 +521,19 @@ label {
     .footer-section {
         padding: 8px;
         font-size: 16px;
+    }
+
+    #formulario {
+        padding: 50px 30px;
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    #formulario h2 {
+        font-size: 24px;
+    }
+
+    .input {
+        padding: 15px;
     }
 }
