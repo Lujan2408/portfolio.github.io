@@ -96,9 +96,32 @@
         </section>
     </main>
     <footer class="footer-section">
+        
+        <form id="formulario">
+            
+            <h2>Leave me your contact</h2>
+
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input class="input" type="text" id="name" name="name" required placeholder="Name"/>
+            
+                <label for="number">Number</label>
+                <input class="input" type="tel" id="number" name="number" placeholder="Number"> 
+            
+                <label for="email">Email</label>
+                <input class="input" type="email" id="email" name="email" required placeholder="Email">
+            
+                <label for="message">Message</label>
+                <textarea class="input" name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+
+                <input class="button" type="submit" value="Send">
+            </div>
+        </form>
+
         <div>
             <p>©2023 - Developed by Jose David </p>
         </div>
+
     </footer>
 </body>
 </html>
