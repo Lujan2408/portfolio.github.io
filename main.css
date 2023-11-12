@@ -347,6 +347,10 @@
         margin: 0;
         font-size: 16px;
     }
+
+    .say-hi a{
+        font-size: 13px;
+    }
     
     .contact-icons {
         gap: 30px;
@@ -434,6 +438,10 @@
 
     .contact-section {
         padding: 50px 25px;
+    }
+
+    .say-hi a{
+        font-size: 13px;
     }
 
     .contact-icons {
